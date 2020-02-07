@@ -6,6 +6,8 @@
 * Ouvrir le terminal et se déplacer jusqu'à l'emplacement de ce dossier
 * Vérifie dans le gemfile que tu possède déjà la version de ruby et de toutes ses gems dont on va avoir besoin. Si certaines te manquent, tu les installes.
 * Faire un petit et mimi : `bundle install`,
+* Faire un `rails db:migrate`
+* Faire un `rails db:seed`
 * Faire un `rails console` des familles ou un `rails console --sandbox` si tu veux préserver l'intégrité de ma DB,
 * Après tu fais ce que tu veux dans la console : comme des `tp Doctor.all` ou des `tp Patient.all` ou bien encore des `tp Appointment.all` (mais celui là il casse tout ... J'ai pas bien réussi à lier les models à priori, si tu as la solution, je suis preneur de tes conseils sacrés et de tes astuces fabuleuses).
 
